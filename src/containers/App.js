@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
-import Navbar from '../components/Navbar';
+import Navbar from '../components/navbar'; //navbar in path spelled with N instead of n
 import Footer from '../components/Footer';
+import LoginForm from '../components/LoginForm'; //LoginForm not imported
 import { Glyphicon } from 'react-bootstrap';
 import '../styles/App.css';
 
+
+//ReactDOM.render() was not called. Added it to index.js
 class App extends Component {
 
   constructor(props) {
